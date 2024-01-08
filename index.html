@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Maven+Pro&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Maven+Pro&family=PT+Serif&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- stars -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="phone.css">
+    <title>Priya-Hospital-Website</title>
+
+</head>
+
+<body>
+
+    <div class="upper-container" id="Home">
+
+        <navbar class="navigation">
+            <h3 class="h-primary">Priya-<span class="dynamic-text"></span></h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Product">Product</a></li>
+                <li><a href="#Expert">Expert</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <button>Get Seat Now</button>
+        </navbar>
+
+        <header>
+
+            <div class="content">
+                <h1>Meet the Best Hospital</h1>
+                <p>Balancing the Micro and Macro of Health: Where Expertise and Empathy Shape Your Well-being</p>
+                <div class="btn">
+                    <button class="location-btn">Get Location</button>
+                    <button class="book-seat short-btn">Book Seat</button>
+                    <button class="short-btn">Learn More</button>
+                </div>
+            </div>
+
+            <!-- For animation of title -->
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+
+                var typed = new Typed(".dynamic-text", {
+                    strings: ["Hospital", "Doctors", "Teams"],
+                    typeSpeed: 400,
+                    backSpeed: 200,
+                    loop: true,
+                })
+
+            </script>
+
+            <div class="form-section">
+
+                <form action="">
+                    <h3>Book Appointment</h3>
+
+                    <div class="data data1">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" placeholder="Full Name">
+                    </div>
+
+
+                    <div class="data">
+                        <label for="email">Email address *</label>
+                        <input type="email" id="email" placeholder="example@gmail.com">
+                    </div>
+
+
+                    <div class="data">
+                        <label for="department">Department *</label>
+                        <select name="" id="department" aria-placeholder="please">
+                            <option value="">Please Select-</option>
+                            <option value="">Outpatient Department (OPD)</option>
+                            <option value="">Operation Theatre Complex (OT)</option>
+                            <option value="">Radiology Department (X-ray)</option>
+                            <option value="">Inpatient Service (IP)</option>
+                        </select>
+                    </div>
+
+
+                    <div class="data">
+                        <label for="time">Time *</label>
+                        <select name="" id="time">
+                            <option value="">Morning Slot (4-11 A.M)</option>
+                            <option value="">Afternoon Slot (11-5 P.M)</option>
+                            <option value="">Evening Slot (5-10 P.M)</option>
+                            <option value="">Night Slot (10-4 A.M)</option>
+                        </select>
+
+                    </div>
+
+                    <button>Book Appointment</button>
+
+                </form>
+
+            </div>
+
+        </header>
+
+        <div class="bg-image">
+            <img src="./img/background.png" alt="">
+        </div>
+
+    </div>
+
+    <!-- For Hamburger -->
+    <label class="label-hamburger">
+        <input type="checkbox">
+        <div class="toggle">
+            <span class="top_line common"></span>
+            <span class="middle_line common"></span>
+            <span class="bottom_line common"></span>
+        </div>
+
+        <div class="slide">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="#home"><i class="fas fa-tv"></i>Home</a></li>
+                <li><a href="#Product"><i class="far fa-heart"></i>Product</a></li>
+                <li><a href="#Expert"><i class="far fa-user"></i>Expert</a></li>
+                <li><a href="#Pricing"><i class="far fa-gripfire"></i>Price</a></li>
+                <li><a href="#Contact"><i class="far fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+    </label>
+
+
+    <!--  Leading Medicine section-->
+
+    <div class="medicine-section" id="Product">
+        <div class="heading">
+
+            <h1>Leading Medicine</h1>
+            <p class="sub-heading">Transforming Cardiac, Oncology, and Neuro Care</p>
+            <p class="sub-heading">For a Healthier Tomorrow,Your Trusted Medical Partners.</p>
+        </div>
+
+
+        <div class="card-section">
+
+            <div class="card1 card">
+                <div class="upper">
+                    <h3>Cardiology</h3>
+                </div>
+                <p>- Skilled cardiologists ensure precision.</p>
+                <p>- Identifying potential issues early.</p>
+                <p>- Promoting wellness habits.</p>
+                <p>- Tailored to individual needs.</p>
+                <p>- Minimally invasive treatments.</p>
+                <p>- Coordinated care from experts.</p>
+                <p>- Enhancing recovery and strength.</p>
+                <p>- Recovery through unique techniques.</p>
+                <h5 class="more">Learn More</h5>
+            </div>
+
+            <div class="card2 card">
+                <div class="upper">
+                    <h3>Oncology</h3>
+                </div>
+                <p>- Skilled specialists ensure precision.</p>
+                <p>- Detecting potential issues early.</p>
+                <p>- Advanced tools for evaluation.</p>
+                <p>- Tailored to unique cases.</p>
+                <p>- Coordinated care from experts.</p>
+                <p>- Targeted and effective therapies.</p>
+                <p>- Guiding patients through challenges.</p>
+                <p>- Empowering patients post-treatment.</p>
+                <h5 class="more">Learn More</h5>
+            </div>
+
+            <div class="card3 card">
+                <div class="upper">
+                    <h3>Neurology</h3>
+                </div>
+                <p>- Procedures from skilled neurologists.</p>
+                <p>- Addressing individual special needs.</p>
+                <p>- Accurate evaluation of conditions.</p>
+                <p>- Comprehensive risk assessment.</p>
+                <p>- Coordinated care from experts.</p>
+                <p>- Addressing emotional aspects.</p>
+                <p>- Guiding patients towards recovery.</p>
+                <p>- Swift recovery with unique methods.</p>
+                <h5 class="more">Learn More</h5>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- OUR EXPERTS -->
+
+    <div class="expert-section" id="Expert">
+        <div class="heading">
+
+            <h1>Our Medicine-Experts</h1>
+            <p class="sub-heading">Guiding Your Health Journey with Unparalleled</p>
+            <p class="sub-heading">Expertise,Where Medical Excellence and Caring Proficiency Meet.</p>
+        </div>
+
+        <div class="card-section">
+            <div class="card1 card ">
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+
+                <div class="image image1">
+                    <img src="./img/doctor2.jpg" alt="doctor1">
+                </div>
+                <h3>Dr. Shruti Bharti </h3>
+                <h5>(Senior Cardiologist)</h5>
+                <p>Dr. Shruti Bharti is our esteemed Senior Cardiologist, an exceptional
+                    leader in the field of cardiology.
+                    Her dedication to patient care is unmatched, and she
+                    is well-versed in handling complex cardiac
+                    conditions and has a special interest in interventional cardiology.
+                    Her commitment to ongoing research and staying abreast of the latest
+                    advancements in cardiology ensures that her patients receive the best
+                    and most up-to-date care available.</p>
+                <h5 class="more" onclick="hideShow1()">Read More</h5>
+                <p class="para2" id="panel1">Dr. Bharti leads a highly skilled and dedicated team of cardiologists
+                    who are handpicked for their exceptional qualifications and commitment
+                    to patient well-being.</p>
+            </div>
+            <div class="card2 card ">
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+
+                <div class="image image2">
+                    <img src="./img/doctor3.jpg" alt="doctor1">
+                </div>
+                <h3>Dr. Sarah Johnson </h3>
+                <h5>(Senior Oncologist)</h5>
+                <p>Dr. Sarah Johnson serves as our distinguished Senior Oncologist,
+                    holds a prestigious medical degree from a renowned
+                    medical school and is board-certified in oncology. Dr. Johnson's
+                    has a deep understanding of various types of cancers and stays at
+                    the forefront of medical advancements in oncology. Dr. Johnson's patients
+                    admire his warm demeanor,clear communication, and dedication to
+                    providing the most effective treatment options available.</p>
+                <h5 class="more" onclick="hideShow2()">Read More</h5>
+                <p class="para2" id="panel2">Dr. Johnson leads a highly skilled and compassionate team of oncologists,
+                    each of whom has been carefully selected for their exceptional
+                    qualifications and commitment to care.</p>
+            </div>
+            <div class="card3 card ">
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+                <span class="material-symbols-outlined star">
+                    star_rate
+                </span>
+
+                <div class="image image3">
+                    <img src="./img/doctor1.jpg" alt="doctor1">
+                </div>
+                <h3>Dr. Prem Kumar</h3>
+                <h5>(Senior Neurologist)</h5>
+                <p>Dr. Prem Kumar is our esteemed Senior Neurologist, with more than 35
+                    years of experience in the field of neurology. Dr. Kumar's passion for
+                    neurology is evident in his dedication to helping patients with
+                    neurological disorders achieve the best possible outcomes.He specializes in
+                    the diagnosis and treatment of various neurological conditions, with a particular interest in stroke
+                    management and neuro-rehabilitation known for his patient-centered approach.</p>
+                <h5 class="more" onclick="hideShow3()">Read More</h5>
+                <p class="para2" id="panel3">Dr. Kumar leads a team of highly skilled and caring neurologists who
+                    share commitment to excellence in patient care in various subfields
+                    of neurolog.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        var div1 = document.getElementById("panel1");
+        var div2 = document.getElementById("panel2");
+        var div3 = document.getElementById("panel3");
+        var display = 1;
+
+        function hideShow1() {
+            if (display == 0) {
+                div1.style.display = "none";
+                display = 1;
+            }
+            else {
+                div1.style.display = "block";
+                display = 0;
+            }
+        }
+
+        function hideShow2() {
+            if (display == 1) {
+                div2.style.display = "block";
+                display = 0;
+            }
+            else {
+                div2.style.display = "none";
+                display = 1;
+            }
+        }
+        function hideShow3() {
+            if (display == 1) {
+                div3.style.display = "block";
+                display = 0;
+            }
+            else {
+                div3.style.display = "none";
+                display = 1;
+            }
+        }
+
+
+    </script>
+
+
+
+    <!-- FAQs Section -->
+
+    <div class="faq">
+        <div class="header">
+            <h1>FAQ<span class="material-symbols-outlined faq-outline">quiz</span></h1>
+            <p class="sub-heading">Answers for Your Care: Explore our FAQs to </p>
+            <p class="sub-heading sub-heading2">Find solutions, from emergencies to services and support.</p>
+        </div>
+
+        <div class="content-section">
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">What services does your hospital offer?</h4>
+                    <p class="ans">We provide a wide range of medical services,
+                        including specialized treatments, surgeries, diagnostics,
+                        and emergency care, catering to diverse healthcare needs.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">How can I schedule an appointment?</h4>
+                    <p class="ans">Booking an appointment is easy. You can call our helpline
+                        or use our online booking portal to select a convenient
+                        date and time.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">How do I reach the hospital in case of an emergency?</h4>
+                    <p class="ans">For emergencies, call our 24/7 helpline or dial 911.
+                        Our skilled emergency response team will be ready to assist you
+                        promptly.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">Are your doctors experienced and qualified?</h4>
+                    <p class="ans"> Yes, our team comprises skilled and board-certified
+                        physicians with extensive experience in their respective fields,
+                        ensuring top-notch medical care.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">What insurance plans do you accept?</h4>
+                    <p class="ans">We accept various insurance providers, and our team
+                        will assist in verifying your coverage to ensure a smooth billing
+                        process.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">Is there a pharmacy within the hospital premises?</h4>
+                    <p class="ans">Yes, we have an in-house pharmacy stocked with a wide
+                        range of medicines, ensuring easy access to prescribed
+                        medications.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">Do you offer financial assistance for low-income patients?</h4>
+                    <p class="ans">Yes, we have financial aid programs for eligible patients,
+                        providing support and ensuring access to quality
+                        healthcare for all.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">Are clinical trials available for specific conditions?</h4>
+                    <p class="ans">We offer opportunities to participate in clinical trials,
+                        contributing to medical research and potentially accessing advanced
+                        treatments.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <span>
+                    <img src="./img/arrow1.jpg" alt="arrow">
+                </span>
+                <div class="qna">
+                    <h4 class="ques">How can I support your hospital's charitable initiatives?</h4>
+                    <p class="ans">You can contribute to our charitable programs through
+                        donations or volunteering to make a positive impact on community
+                        healthcare.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- Pricing Section -->
+
+    <div class="pricing" id="Pricing">
+        <div class="heading">
+            <h1>Pricing<span class="material-symbols-outlined price-outline">currency_rupee</span></h1>
+            <p class="sub-heading">Discover Your Care Options: From Free </p>
+            <p class="sub-heading">to Premium, Choose the Perfect Path to Your Health.</p>
+        </div>
+
+        <div class="contents">
+
+            <div class="content content1">
+                <h3 class="free">Free</h3>
+                <p class="sub-para">Organize across all sites by hand</p>
+
+                <div class="price">
+                    <h1>0</h1>
+                    <div>
+                        <h4>Rs</h4>
+                        <p>Per Month</p>
+                    </div>
+
+                </div>
+
+                <div class="options">
+
+                    <div class="option option1  ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Email and community support</span>
+                    </div>
+                    <div class="option option2 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Unlimited product updates</span>
+                    </div>
+                    <div class="option option3 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Dedicated 24/7 support service</span>
+                    </div>
+                    <div class="option option4  ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Personalized Care</span>
+                    </div>
+                    <div class="option option5 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Medical Tourism</span>
+                    </div>
+                    <div class="option option6 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Spa and relaxation services</span>
+                    </div>
+
+                </div>
+
+                <div class="btnn">
+                    <button>Buy Free</button>
+                </div>
+
+
+            </div>
+
+
+            <!-- 2nd Box -->
+            <div class="content content2">
+                <h3 class="free">Standard</h3>
+                <p class="sub-para">Organize across all sites by hand</p>
+
+                <div class="price">
+                    <h1>2000</h1>
+                    <div>
+                        <h4>Rs</h4>
+                        <p>Per Month</p>
+                    </div>
+
+                </div>
+
+                <div class="options">
+                    <div class="option option1 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Email and community support</span>
+                    </div>
+                    <div class="option option2 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Unlimited product updates</span>
+                    </div>
+                    <div class="option option3 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Dedicated 24/7 support service</span>
+                    </div>
+                    <div class="option option4  ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Personalized Care</span>
+                    </div>
+                    <div class="option option5 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Medical Tourism</span>
+                    </div>
+                    <div class="option option6 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Spa and relaxation services</span>
+                    </div>
+
+                </div>
+                <div class="btnn">
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+
+            <!-- 3rd Box -->
+            <div class="content content3">
+                <h3 class="free">Premium</h3>
+                <p class="sub-para">Organize across all sites by hand</p>
+
+                <div class="price">
+                    <h1>8000</h1>
+                    <div>
+                        <h4>Rs</h4>
+                        <p>Per Month</p>
+                    </div>
+
+                </div>
+
+                <div class="options">
+                    <div class="option option1 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Email and community support</span>
+                    </div>
+                    <div class="option option2 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Unlimited product updates</span>
+                    </div>
+                    <div class="option option3 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Dedicated 24/7 support service</span>
+                    </div>
+                    <div class="option option4  ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Personalized Care</span>
+                    </div>
+                    <div class="option option5 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Medical Tourism</span>
+                    </div>
+                    <div class="option option6 ">
+                        <span class="material-symbols-outlined clr">check_circle</span>
+                        <span>Spa and relaxation services</span>
+                    </div>
+
+
+                    <div class="btnn">
+                        <button>Buy Now</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Subscribe Section -->
+
+    <div class="subscribe" id="Contact">
+        <div class="content">
+            <h1>Get In Touch</h1>
+            <p>"Connect with us to embark on your path to better health.
+                Reach out for inquiries, appointments, or
+                any assistance you need."</p>
+        </div>
+
+        <div class="btnn">
+            <input type="email" placeholder="Your Email">
+            <button>Subscribe</button>
+        </div>
+
+    </div>
+
+
+    <!-- Lower-Section -->
+    <div class="lower-section">
+
+        <div class="info1 info">
+            <h2>Follow us</h2>
+            <p>Follow on Social Media for updates</p>
+            <div class="social-media">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram "></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+
+        <div class="info2 info">
+            <h2>Company info</h2>
+            <ul>
+                <li><a href="">About us</a></li>
+                <li>Carrier</li>
+                <li class="list3">We are hiring</li>
+                <li class="list4">Blog</li>
+            </ul>
+        </div>
+
+        <div class="info3 info">
+            <h2>Features</h2>
+            <ul>
+                <li>Business Marketing</li>
+                <li>User Analytic</li>
+                <li>Live Chat</li>
+                <li>Unlimited Support</li>
+            </ul>
+        </div>
+
+        <div class="info4 info">
+            <h2>Resources</h2>
+            <ul>
+                <li>IOS & Android</li>
+                <li>Watch a Demo</li>
+                <li>Customers</li>
+                <li class="list4">API</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer Section -->
+
+    <footer>
+        <h4>Made with Love By Priya Ranjan </h4>
+        <span class="material-symbols-outlined love">favorite</span>
+        <h4> || All Rights Reserved !!</h4>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
