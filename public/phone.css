@@ -442,7 +442,7 @@
     }
 
     label .slide {
-        height: 100vh;
+        /* height: 100vh; */
         width: 250px;
         position: absolute;
         top: 20px;
@@ -479,7 +479,7 @@
     }
 
     .slide a {
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
         text-decoration: none;
     }
 

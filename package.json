@@ -1,0 +1,14 @@
+{
+  "name": "responsive_hospital_website_project",
+  "version": "1.0.0",
+  "description": "Hospital Website",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priya Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
