@@ -32,6 +32,7 @@ Explore our fully responsive user friendly website featuring an easy-to-use faci
 
 
 
+
 ![footer](https://github.com/PriyaR211/Responsive_Hospital_Website_Project/assets/115357641/9dc56a59-4fc0-4c03-9009-a560f2781563)
 
 
