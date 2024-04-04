@@ -9,7 +9,63 @@ Explore our fully responsive website featuring an easy-to-use appointment bookin
 ![medicines](https://github.com/PriyaR211/Responsive_Hospital_Website_Project/assets/115357641/7b499306-7ecc-4b20-bcc2-58958e97e58f)
 
 
+
+
+
 ![experts](https://github.com/PriyaR211/Responsive_Hospital_Website_Project/assets/115357641/f3434e7c-5623-46db-876e-3ae5b78905ea)
+
+
+
+
+
+
+![faqs](https://github.com/PriyaR211/Responsive_Hospital_Website_Project/assets/115357641/4ac1c171-a339-453c-a676-24cd17813f38)
+
+
+
+
+
+
+
+![pricing](https://github.com/PriyaR211/Responsive_Hospital_Website_Project/assets/115357641/4ffacc45-9227-410e-9f3e-8c6280d88582)
+
+
+
+
+
+
+
+![price](https://github.com/PriyaR211/Responsive_Hospital_Website_Project/assets/115357641/b95ccd91-0408-4575-8cc5-4cfad462fe6d)
+
+
+
+
+
+
+![subscribe](https://github.com/PriyaR211/Responsive_Hospital_Website_Project/assets/115357641/513844f1-68c9-4495-ae08-85a9b7427bd1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
